@@ -23,6 +23,7 @@ Library that contains database of long numbers
 | getListOfLargeNumber() | Returns 2D array of Large Numbers ([Name, Suffix]); | 2D Array |
 | getListOfSuffixes() | Returns array of suffixes ("K", "M" etc.) | Array |
 | getDigitsOfLargeNumber(suffix) | Searches for value and returns value ("K" = 1000) | Int value |
+| getLargeNumbersInfo(typeID, searchValue) | Searches for value you are provided and returns suitable value info. TypeID is used to tell how you're gonna search. TypeID can be 0 (Search by Name), 1 (Search by Suffix), 2 (Search by numberOfDigits) | Array
 
 ## How to install
 1. Download file *(/src/LongNumbersDatabase.js)*
